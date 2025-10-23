@@ -7,6 +7,7 @@
   const totalPasswords = 3;
 
   // Map scene id to element
+  //
   const sceneById = scenes.reduce((acc, s) => { acc[s.dataset.scene] = s; return acc }, {});
 
   // Load audio elements
